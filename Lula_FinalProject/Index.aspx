@@ -25,8 +25,17 @@
         <br />
         <asp:Label ID="lblResult2" runat="server" Text=""></asp:Label>
         </div>
-        <div>
+        <hr />
 
+        <div>
+            <!-- Gabe's Problem 1028 Section -->
+        <asp:Button ID="btnShowSolution1028" runat="server" Text="Problem 1028" OnClick="btnShowSolution1028_Click" />
+        <br />
+        <asp:Label ID="lblDescription1028" runat="server" Font-Bold="true" Text=""></asp:Label>
+        <br />
+        <asp:Label ID="lblTestCase1028" runat="server" Text=""></asp:Label>
+        <br />
+        <asp:Label ID="lblResult1028" runat="server" Text=""></asp:Label>
         </div>
     </form>
 </body>
